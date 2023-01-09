@@ -1,0 +1,534 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!-- Offer Start -->
+<div class="container-fluid bg-offer my-5 py-5">
+    <div class="container py-5">
+        <div class="row gx-5 justify-content-start">
+            <div class="col-lg-7">
+                <div class="border-start border-5 border-dark ps-5 mb-5">
+                    <h6 class="text-dark text-uppercase">Special Offer</h6>
+                    <h1 class="display-5 text-uppercase text-white mb-0">Save 50% on all items your first order</h1>
+                </div>
+                <p class="text-white mb-4">Eirmod sed tempor lorem ut dolores sit kasd ipsum. Dolor ea et dolore et at sea ea at dolor justo ipsum duo rebum sea. Eos vero eos vero ea et dolore eirmod et. Dolores diam duo lorem. Elitr ut dolores magna sit. Sea dolore sed et.</p>
+                <a href="" class="btn btn-light py-md-3 px-md-5 me-3">Shop Now</a>
+                @Html.ActionLink("Read More", "Index", "Blog", null, new { @class = "btn btn-outline-light py-md-3 px-md-5" })
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Offer End -->
+<!-- Products Start -->
+<div class="container-fluid py-5">
+    <div class="container">
+        <div class="border-start border-5 border-primary ps-5 mb-5" style="max-width: 600px;">
+            <h6 class="text-primary text-uppercase">Products</h6>
+            <h1 class="display-5 text-uppercase mb-0">Products For Your Best Friends</h1>
+        </div>
+        <div class="owl-carousel product-carousel">
+            <div class="pb-5">
+                <div class="product-item position-relative bg-light d-flex flex-column text-center">
+                    <img class="img-fluid mb-4" src="~/Images/product-1.png" alt="">
+                    <h6 class="text-uppercase">Quality Pet Foods</h6>
+                    <h5 class="text-primary mb-0">$199.00</h5>
+                    <div class="btn-action d-flex justify-content-center">
+                        <a class="btn btn-primary py-2 px-3" href=""><i class="bi bi-cart"></i></a>
+                        <a class="btn btn-primary py-2 px-3" href=""><i class="bi bi-eye"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="pb-5">
+                <div class="product-item position-relative bg-light d-flex flex-column text-center">
+                    <img class="img-fluid mb-4" src="~/Images/product-2.png" alt="">
+                    <h6 class="text-uppercase">Quality Pet Foods</h6>
+                    <h5 class="text-primary mb-0">$199.00</h5>
+                    <div class="btn-action d-flex justify-content-center">
+                        <a class="btn btn-primary py-2 px-3" href=""><i class="bi bi-cart"></i></a>
+                        <a class="btn btn-primary py-2 px-3" href=""><i class="bi bi-eye"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="pb-5">
+                <div class="product-item position-relative bg-light d-flex flex-column text-center">
+                    <img class="img-fluid mb-4" src="~/Images/product-3.png" alt="">
+                    <h6 class="text-uppercase">Quality Pet Foods</h6>
+                    <h5 class="text-primary mb-0">$199.00</h5>
+                    <div class="btn-action d-flex justify-content-center">
+                        <a class="btn btn-primary py-2 px-3" href=""><i class="bi bi-cart"></i></a>
+                        <a class="btn btn-primary py-2 px-3" href=""><i class="bi bi-eye"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="pb-5">
+                <div class="product-item position-relative bg-light d-flex flex-column text-center">
+                    <img class="img-fluid mb-4" src="~/Images/product-4.png" alt="">
+                    <h6 class="text-uppercase">Quality Pet Foods</h6>
+                    <h5 class="text-primary mb-0">$199.00</h5>
+                    <div class="btn-action d-flex justify-content-center">
+                        <a class="btn btn-primary py-2 px-3" href=""><i class="bi bi-cart"></i></a>
+                        <a class="btn btn-primary py-2 px-3" href=""><i class="bi bi-eye"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="pb-5">
+                <div class="product-item position-relative bg-light d-flex flex-column text-center">
+                    <img class="img-fluid mb-4" src="~/Images/product-2.png" alt="">
+                    <h6 class="text-uppercase">Quality Pet Foods</h6>
+                    <h5 class="text-primary mb-0">$199.00</h5>
+                    <div class="btn-action d-flex justify-content-center">
+                        <a class="btn btn-primary py-2 px-3" href=""><i class="bi bi-cart"></i></a>
+                        <a class="btn btn-primary py-2 px-3" href=""><i class="bi bi-eye"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--List product-->
+        <div class="container p-50">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="wsk-cp-product">
+                        <div class="wsk-cp-img">
+                            <img src="~/Images/product-1.png" alt="Product" class="img-responsive" />
+                        </div>
+                        <div class="wsk-cp-text">
+                            <!--Category-->
+                            <div class="category">
+                                <span>Seed</span>
+                            </div>
+                            <!--Title product-->
+                            <div class="title-product">
+                                <h3>Seed for bird</h3>
+                            </div>
+                            <!--Description-->
+                            <div class="description-prod">
+                                <p>Description Product tell me how to change playlist height size like 600px in html5 player. player good work now check this link</p>
+                            </div>
+                            <div class="card-footer">
+                                <div class="wcf-left"><span class="price">10.99$</span></div>
+                                <div class="wcf-right"><a href="#" class="buy-btn"><i class="bi bi-basket"></i></a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="wsk-cp-product">
+                        <div class="wsk-cp-img">
+                            <img src="~/Images/product-2.png" alt="Product" class="img-responsive" />
+                        </div>
+                        <div class="wsk-cp-text">
+                            <!--Category-->
+                            <div class="category">
+                                <span>Seed</span>
+                            </div>
+                            <!--Title product-->
+                            <div class="title-product">
+                                <h3>Seed for cat</h3>
+                            </div>
+                            <!--Description-->
+                            <div class="description-prod">
+                                <p>Description Product tell me how to change playlist height size like 600px in html5 player. player good work now check this link</p>
+                            </div>
+                            <div class="card-footer">
+                                <div class="wcf-left"><span class="price">10.99$</span></div>
+                                <div class="wcf-right"><a href="#" class="buy-btn"><i class="bi bi-basket"></i></a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="wsk-cp-product">
+                        <div class="wsk-cp-img">
+                            <img src="~/Images/product-3.png" alt="Product" class="img-responsive" />
+                        </div>
+                        <div class="wsk-cp-text">
+                            <!--Category-->
+                            <div class="category">
+                                <span>Seed</span>
+                            </div>
+                            <!--Title product-->
+                            <div class="title-product">
+                                <h3>Seed for bird</h3>
+                            </div>
+                            <!--Description-->
+                            <div class="description-prod">
+                                <p>Description Product tell me how to change playlist height size like 600px in html5 player. player good work now check this link</p>
+                            </div>
+                            <div class="card-footer">
+                                <div class="wcf-left"><span class="price">10.99$</span></div>
+                                <div class="wcf-right"><a href="#" class="buy-btn"><i class="bi bi-basket"></i></a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="wsk-cp-product">
+                        <div class="wsk-cp-img">
+                            <img src="~/Images/product-4.png" alt="Product" class="img-responsive" />
+                        </div>
+                        <div class="wsk-cp-text">
+                            <!--Category-->
+                            <div class="category">
+                                <span>Seed</span>
+                            </div>
+                            <!--Title product-->
+                            <div class="title-product">
+                                <h3>Seed for bird</h3>
+                            </div>
+                            <!--Description-->
+                            <div class="description-prod">
+                                <p>Description Product tell me how to change playlist height size like 600px in html5 player. player good work now check this link</p>
+                            </div>
+                            <div class="card-footer">
+                                <div class="wcf-left"><span class="price">10.99$</span></div>
+                                <div class="wcf-right"><a href="#" class="buy-btn"><i class="bi bi-basket"></i></a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="wsk-cp-product">
+                        <div class="wsk-cp-img">
+                            <img src="~/Images/product-4.png" alt="Product" class="img-responsive" />
+                        </div>
+                        <div class="wsk-cp-text">
+                            <!--Category-->
+                            <div class="category">
+                                <span>Seed</span>
+                            </div>
+                            <!--Title product-->
+                            <div class="title-product">
+                                <h3>Seed for bird</h3>
+                            </div>
+                            <!--Description-->
+                            <div class="description-prod">
+                                <p>Description Product tell me how to change playlist height size like 600px in html5 player. player good work now check this link</p>
+                            </div>
+                            <div class="card-footer">
+                                <div class="wcf-left"><span class="price">10.99$</span></div>
+                                <div class="wcf-right"><a href="#" class="buy-btn"><i class="bi bi-basket"></i></a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="wsk-cp-product">
+                        <div class="wsk-cp-img">
+                            <img src="~/Images/product-3.png" alt="Product" class="img-responsive" />
+                        </div>
+                        <div class="wsk-cp-text">
+                            <!--Category-->
+                            <div class="category">
+                                <span>Seed</span>
+                            </div>
+                            <!--Title product-->
+                            <div class="title-product">
+                                <h3>Seed for bird</h3>
+                            </div>
+                            <!--Description-->
+                            <div class="description-prod">
+                                <p>Description Product tell me how to change playlist height size like 600px in html5 player. player good work now check this link</p>
+                            </div>
+                            <div class="card-footer">
+                                <div class="wcf-left"><span class="price">10.99$</span></div>
+                                <div class="wcf-right"><a href="#" class="buy-btn"><i class="bi bi-basket"></i></a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="wsk-cp-product">
+                        <div class="wsk-cp-img">
+                            <img src="~/Images/product-2.png" alt="Product" class="img-responsive" />
+                        </div>
+                        <div class="wsk-cp-text">
+                            <!--Category-->
+                            <div class="category">
+                                <span>Seed</span>
+                            </div>
+                            <!--Title product-->
+                            <div class="title-product">
+                                <h3>Seed for bird</h3>
+                            </div>
+                            <!--Description-->
+                            <div class="description-prod">
+                                <p>Description Product tell me how to change playlist height size like 600px in html5 player. player good work now check this link</p>
+                            </div>
+                            <div class="card-footer">
+                                <div class="wcf-left"><span class="price">10.99$</span></div>
+                                <div class="wcf-right"><a href="#" class="buy-btn"><i class="bi bi-basket"></i></a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="wsk-cp-product">
+                        <div class="wsk-cp-img">
+                            <img src="~/Images/product-1.png" alt="Product" class="img-responsive" />
+                        </div>
+                        <div class="wsk-cp-text">
+                            <!--Category-->
+                            <div class="category">
+                                <span>Seed</span>
+                            </div>
+                            <!--Title product-->
+                            <div class="title-product">
+                                <h3>Seed for bird</h3>
+                            </div>
+                            <!--Description-->
+                            <div class="description-prod">
+                                <p>Description Product tell me how to change playlist height size like 600px in html5 player. player good work now check this link</p>
+                            </div>
+                            <div class="card-footer">
+                                <div class="wcf-left"><span class="price">10.99$</span></div>
+                                <div class="wcf-right"><a href="#" class="buy-btn"><i class="bi bi-basket"></i></a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="wsk-cp-product">
+                        <div class="wsk-cp-img">
+                            <img src="~/Images/product-1.png" alt="Product" class="img-responsive" />
+                        </div>
+                        <div class="wsk-cp-text">
+                            <!--Category-->
+                            <div class="category">
+                                <span>Seed</span>
+                            </div>
+                            <!--Title product-->
+                            <div class="title-product">
+                                <h3>Seed for bird</h3>
+                            </div>
+                            <!--Description-->
+                            <div class="description-prod">
+                                <p>Description Product tell me how to change playlist height size like 600px in html5 player. player good work now check this link</p>
+                            </div>
+                            <div class="card-footer">
+                                <div class="wcf-left"><span class="price">10.99$</span></div>
+                                <div class="wcf-right"><a href="#" class="buy-btn"><i class="bi bi-basket"></i></a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="wsk-cp-product">
+                        <div class="wsk-cp-img">
+                            <img src="~/Images/product-2.png" alt="Product" class="img-responsive" />
+                        </div>
+                        <div class="wsk-cp-text">
+                            <!--Category-->
+                            <div class="category">
+                                <span>Seed</span>
+                            </div>
+                            <!--Title product-->
+                            <div class="title-product">
+                                <h3>Seed for bird</h3>
+                            </div>
+                            <!--Description-->
+                            <div class="description-prod">
+                                <p>Description Product tell me how to change playlist height size like 600px in html5 player. player good work now check this link</p>
+                            </div>
+                            <div class="card-footer">
+                                <div class="wcf-left"><span class="price">10.99$</span></div>
+                                <div class="wcf-right"><a href="#" class="buy-btn"><i class="bi bi-basket"></i></a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="wsk-cp-product">
+                        <div class="wsk-cp-img">
+                            <img src="~/Images/product-3.png" alt="Product" class="img-responsive" />
+                        </div>
+                        <div class="wsk-cp-text">
+                            <!--Category-->
+                            <div class="category">
+                                <span>Seed</span>
+                            </div>
+                            <!--Title product-->
+                            <div class="title-product">
+                                <h3>Seed for bird</h3>
+                            </div>
+                            <!--Description-->
+                            <div class="description-prod">
+                                <p>Description Product tell me how to change playlist height size like 600px in html5 player. player good work now check this link</p>
+                            </div>
+                            <div class="card-footer">
+                                <div class="wcf-left"><span class="price">10.99$</span></div>
+                                <div class="wcf-right"><a href="#" class="buy-btn"><i class="bi bi-basket"></i></a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="wsk-cp-product">
+                        <div class="wsk-cp-img">
+                            <img src="~/Images/product-4.png" alt="Product" class="img-responsive" />
+                        </div>
+                        <div class="wsk-cp-text">
+                            <!--Category-->
+                            <div class="category">
+                                <span>Seed</span>
+                            </div>
+                            <!--Title product-->
+                            <div class="title-product">
+                                <h3>Seed for bird</h3>
+                            </div>
+                            <!--Description-->
+                            <div class="description-prod">
+                                <p>Description Product tell me how to change playlist height size like 600px in html5 player. player good work now check this link</p>
+                            </div>
+                            <div class="card-footer">
+                                <div class="wcf-left"><span class="price">10.99$</span></div>
+                                <div class="wcf-right"><a href="#" class="buy-btn"><i class="bi bi-basket"></i></a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12">
+                <div class="center pt-20">
+                    <nav aria-label="Page navigation">
+                        <ul class="pagination pagination-lg m-0">
+                            <li class="page-item disabled">
+                                <a class="page-link rounded-0" href="#" aria-label="Previous">
+                                    <span aria-hidden="true"><i class="bi bi-arrow-left"></i></span>
+                                </a>
+                            </li>
+                            <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item">
+                                <a class="page-link rounded-0" href="#" aria-label="Next">
+                                    <span aria-hidden="true"><i class="bi bi-arrow-right"></i></span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <!-- End List product-->
+
+    </div>
+</div>
+<!-- Products End -->
+<!-- Pricing Plan Start -->
+<div class="container-fluid py-5">
+    <div class="container">
+        <div class="border-start border-5 border-primary ps-5 mb-5" style="max-width: 600px;">
+            <h6 class="text-primary text-uppercase">Pricing Plan</h6>
+            <h1 class="display-5 text-uppercase mb-0">Competitive Pricing For Pet Services</h1>
+        </div>
+        <div class="row g-5">
+            <div class="col-lg-4">
+                <div class="bg-light text-center pt-5 mt-lg-5">
+                    <h2 class="text-uppercase">Basic</h2>
+                    <h6 class="text-body mb-5">The Best Choice</h6>
+                    <div class="text-center bg-primary p-4 mb-2">
+                        <h1 class="display-4 text-white mb-0">
+                            <small class="align-top"
+                                   style="font-size: 22px; line-height: 45px;">$</small>49<small class="align-bottom" style="font-size: 16px; line-height: 40px;">
+                                /
+                                Mo
+                            </small>
+                        </h1>
+                    </div>
+                    <div class="text-center p-4">
+                        <div class="d-flex align-items-center justify-content-between mb-1">
+                            <span>HTML5 & CSS3</span>
+                            <i class="bi bi-check2 fs-4 text-primary"></i>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-between mb-1">
+                            <span>Bootstrap v5</span>
+                            <i class="bi bi-check2 fs-4 text-primary"></i>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-between mb-1">
+                            <span>Responsive Layout</span>
+                            <i class="bi bi-x fs-4 text-danger"></i>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-between mb-1">
+                            <span>Browsers Compatibility</span>
+                            <i class="bi bi-x fs-4 text-danger"></i>
+                        </div>
+                        <a href="" class="btn btn-primary text-uppercase py-2 px-4 my-3">Order Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="bg-light text-center pt-5">
+                    <h2 class="text-uppercase">Standard</h2>
+                    <h6 class="text-body mb-5">The Best Choice</h6>
+                    <div class="text-center bg-dark p-4 mb-2">
+                        <h1 class="display-4 text-white mb-0">
+                            <small class="align-top"
+                                   style="font-size: 22px; line-height: 45px;">$</small>99<small class="align-bottom" style="font-size: 16px; line-height: 40px;">
+                                /
+                                Mo
+                            </small>
+                        </h1>
+                    </div>
+                    <div class="text-center p-4">
+                        <div class="d-flex align-items-center justify-content-between mb-1">
+                            <span>HTML5 & CSS3</span>
+                            <i class="bi bi-check2 fs-4 text-primary"></i>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-between mb-1">
+                            <span>Bootstrap v5</span>
+                            <i class="bi bi-check2 fs-4 text-primary"></i>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-between mb-1">
+                            <span>Responsive Layout</span>
+                            <i class="bi bi-check2 fs-4 text-primary"></i>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-between mb-1">
+                            <span>Browsers Compatibility</span>
+                            <i class="bi bi-x fs-4 text-danger"></i>
+                        </div>
+                        <a href="" class="btn btn-primary text-uppercase py-2 px-4 my-3">Order Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="bg-light text-center pt-5 mt-lg-5">
+                    <h2 class="text-uppercase">Extended</h2>
+                    <h6 class="text-body mb-5">The Best Choice</h6>
+                    <div class="text-center bg-primary p-4 mb-2">
+                        <h1 class="display-4 text-white mb-0">
+                            <small class="align-top"
+                                   style="font-size: 22px; line-height: 45px;">$</small>149<small class="align-bottom" style="font-size: 16px; line-height: 40px;">
+                                /
+                                Mo
+                            </small>
+                        </h1>
+                    </div>
+                    <div class="text-center p-4">
+                        <div class="d-flex align-items-center justify-content-between mb-1">
+                            <span>HTML5 & CSS3</span>
+                            <i class="bi bi-check2 fs-4 text-primary"></i>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-between mb-1">
+                            <span>Bootstrap v5</span>
+                            <i class="bi bi-check2 fs-4 text-primary"></i>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-between mb-1">
+                            <span>Responsive Layout</span>
+                            <i class="bi bi-check2 fs-4 text-primary"></i>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-between mb-1">
+                            <span>Browsers Compatibility</span>
+                            <i class="bi bi-check2 fs-4 text-primary"></i>
+                        </div>
+                        <a href="" class="btn btn-primary text-uppercase py-2 px-4 my-3">Order Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Pricing Plan End -->
