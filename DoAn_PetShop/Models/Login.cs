@@ -7,5 +7,6 @@ namespace DoAn_PetShop.Models
 {
     public class Login
     {
+
     }
 }

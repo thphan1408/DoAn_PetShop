@@ -32,7 +32,7 @@
     $(document).ready(function () {
         var $videoSrc;
         $('.btn-play').click(function () {
-            $videoSrc = $(this).data("src");
+            $videoSrc = $(this).data('src');
         });
         console.log($videoSrc);
 
@@ -44,8 +44,7 @@
             $("#video").attr('src', $videoSrc);
         })
     });
-    
-    
+
     // Back to top button
     $(window).scroll(function () {
         if ($(this).scrollTop() > 100) {
@@ -133,4 +132,3 @@
     });
     
 })(jQuery);
-
